@@ -51,6 +51,10 @@ public class CleaningprodService {
                     accesoryDb.get().setCategory(accesory.getCategory());
                 }
                 
+                if (accesory.getName() != null) {
+                    accesoryDb.get().setName(accesory.getName());
+                }
+                
                 if (accesory.getDescription() != null) {
                     accesoryDb.get().setDescription(accesory.getDescription());
                 }
